@@ -1,0 +1,119 @@
+﻿Build started 25/04/2018 22:12:17.
+     1>Project "D:\Projects\C++\DriverLib\DriverLib\DriverLib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Programs\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\DriverLib.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt DriverLib.cpp
+         DriverLib.cpp
+     1>DriverLib.cpp(1): warning C4627: '#include "DriverLib.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>DriverLib.cpp(5): error C2146: syntax error : missing ';' before identifier 'DriverCode'
+     1>DriverLib.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>DriverLib.cpp(2909): error C2653: 'Driver' : is not a class or namespace name
+     1>DriverLib.cpp(2910): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>DriverLib.cpp(2912): warning C4508: 'Driver' : function should return a value; 'void' return type assumed
+     1>DriverLib.cpp(2915): error C2653: 'Driver' : is not a class or namespace name
+     1>DriverLib.cpp(2915): error C2146: syntax error : missing ';' before identifier 'LoadDriver'
+     1>DriverLib.cpp(2915): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>DriverLib.cpp(2916): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>DriverLib.cpp(2918): error C2065: 'CHAR' : undeclared identifier
+     1>DriverLib.cpp(2918): error C2146: syntax error : missing ';' before identifier 'CurrentDir'
+     1>DriverLib.cpp(2918): error C2065: 'CurrentDir' : undeclared identifier
+     1>DriverLib.cpp(2918): error C2065: 'MAX_PATH' : undeclared identifier
+     1>DriverLib.cpp(2920): error C2065: 'MAX_PATH' : undeclared identifier
+     1>DriverLib.cpp(2920): error C2065: 'CurrentDir' : undeclared identifier
+     1>DriverLib.cpp(2920): error C3861: 'GetCurrentDirectoryA': identifier not found
+     1>DriverLib.cpp(2922): error C2065: 'CurrentDir' : undeclared identifier
+     1>DriverLib.cpp(2922): error C3861: 'strcat_s': identifier not found
+     1>DriverLib.cpp(2924): error C2065: 'HANDLE' : undeclared identifier
+     1>DriverLib.cpp(2924): error C2146: syntax error : missing ';' before identifier 'hFile'
+     1>DriverLib.cpp(2924): error C2065: 'hFile' : undeclared identifier
+     1>DriverLib.cpp(2924): error C2065: 'CurrentDir' : undeclared identifier
+     1>DriverLib.cpp(2924): error C2065: 'GENERIC_WRITE' : undeclared identifier
+     1>DriverLib.cpp(2924): error C2065: 'NULL' : undeclared identifier
+     1>DriverLib.cpp(2924): error C2065: 'CREATE_NEW' : undeclared identifier
+     1>DriverLib.cpp(2924): error C2065: 'FILE_ATTRIBUTE_NORMAL' : undeclared identifier
+     1>DriverLib.cpp(2924): error C3861: 'CreateFileA': identifier not found
+     1>DriverLib.cpp(2926): error C2065: 'hFile' : undeclared identifier
+     1>DriverLib.cpp(2926): error C2065: 'INVALID_HANDLE_VALUE' : undeclared identifier
+     1>DriverLib.cpp(2929): error C2065: 'DWORD' : undeclared identifier
+     1>DriverLib.cpp(2929): error C2146: syntax error : missing ';' before identifier 'BytesWritten'
+     1>DriverLib.cpp(2929): error C2065: 'BytesWritten' : undeclared identifier
+     1>DriverLib.cpp(2931): error C2065: 'hFile' : undeclared identifier
+     1>DriverLib.cpp(2931): error C2065: 'BytesWritten' : undeclared identifier
+     1>DriverLib.cpp(2931): error C2065: 'NULL' : undeclared identifier
+     1>DriverLib.cpp(2931): error C3861: 'WriteFile': identifier not found
+     1>DriverLib.cpp(2934): error C2065: 'hFile' : undeclared identifier
+     1>DriverLib.cpp(2934): error C3861: 'CloseHandle': identifier not found
+     1>DriverLib.cpp(2936): error C2065: 'SC_HANDLE' : undeclared identifier
+     1>DriverLib.cpp(2936): error C2146: syntax error : missing ';' before identifier 'hManager'
+     1>DriverLib.cpp(2936): error C2065: 'hManager' : undeclared identifier
+     1>DriverLib.cpp(2936): error C2065: 'NULL' : undeclared identifier
+     1>DriverLib.cpp(2936): error C2065: 'SC_MANAGER_CREATE_SERVICE' : undeclared identifier
+     1>DriverLib.cpp(2936): error C2065: 'SC_MANAGER_CONNECT' : undeclared identifier
+     1>DriverLib.cpp(2936): error C3861: 'OpenSCManagerW': identifier not found
+     1>DriverLib.cpp(2938): error C2065: 'hManager' : undeclared identifier
+     1>DriverLib.cpp(2941): error C2065: 'SC_HANDLE' : undeclared identifier
+     1>DriverLib.cpp(2941): error C2146: syntax error : missing ';' before identifier 'hExists'
+     1>DriverLib.cpp(2941): error C2065: 'hExists' : undeclared identifier
+     1>DriverLib.cpp(2941): error C2065: 'hManager' : undeclared identifier
+     1>DriverLib.cpp(2941): error C2065: 'SERVICE_STOP' : undeclared identifier
+     1>DriverLib.cpp(2941): error C2065: 'DELETE' : undeclared identifier
+     1>DriverLib.cpp(2941): error C3861: 'OpenServiceW': identifier not found
+     1>DriverLib.cpp(2943): error C2065: 'hExists' : undeclared identifier
+     1>DriverLib.cpp(2946): error C2065: 'SERVICE_STATUS' : undeclared identifier
+     1>DriverLib.cpp(2946): error C2146: syntax error : missing ';' before identifier 'ServiceStatus'
+     1>DriverLib.cpp(2946): error C2065: 'ServiceStatus' : undeclared identifier
+     1>DriverLib.cpp(2948): error C2065: 'hExists' : undeclared identifier
+     1>DriverLib.cpp(2948): error C2065: 'SERVICE_CONTROL_STOP' : undeclared identifier
+     1>DriverLib.cpp(2948): error C2065: 'ServiceStatus' : undeclared identifier
+     1>DriverLib.cpp(2948): error C2065: 'ERROR_SERVICE_NOT_ACTIVE' : undeclared identifier
+     1>DriverLib.cpp(2948): error C3861: 'ControlService': identifier not found
+     1>DriverLib.cpp(2948): error C3861: 'GetLastError': identifier not found
+     1>DriverLib.cpp(2951): error C2065: 'CurrentDir' : undeclared identifier
+     1>DriverLib.cpp(2951): error C3861: 'DeleteFileA': identifier not found
+     1>DriverLib.cpp(2953): error C2065: 'hManager' : undeclared identifier
+     1>DriverLib.cpp(2953): error C3861: 'CloseServiceHandle': identifier not found
+     1>DriverLib.cpp(2955): error C2065: 'hExists' : undeclared identifier
+     1>DriverLib.cpp(2955): error C3861: 'CloseServiceHandle': identifier not found
+     1>DriverLib.cpp(2957): error C2065: 'FALSE' : undeclared identifier
+     1>DriverLib.cpp(2960): error C2065: 'hExists' : undeclared identifier
+     1>DriverLib.cpp(2960): error C2065: 'ERROR_SERVICE_MARKED_FOR_DELETE' : undeclared identifier
+     1>DriverLib.cpp(2960): error C3861: 'DeleteService': identifier not found
+     1>DriverLib.cpp(2960): error C3861: 'GetLastError': identifier not found
+     1>DriverLib.cpp(2963): error C2065: 'CurrentDir' : undeclared identifier
+     1>DriverLib.cpp(2963): error C3861: 'DeleteFileA': identifier not found
+     1>DriverLib.cpp(2965): error C2065: 'hManager' : undeclared identifier
+     1>DriverLib.cpp(2965): error C3861: 'CloseServiceHandle': identifier not found
+     1>DriverLib.cpp(2967): error C2065: 'hExists' : undeclared identifier
+     1>DriverLib.cpp(2967): error C3861: 'CloseServiceHandle': identifier not found
+     1>DriverLib.cpp(2969): error C2065: 'FALSE' : undeclared identifier
+     1>DriverLib.cpp(2972): error C2065: 'hExists' : undeclared identifier
+     1>DriverLib.cpp(2972): error C3861: 'CloseServiceHandle': identifier not found
+     1>DriverLib.cpp(2975): error C2065: 'hService' : undeclared identifier
+     1>DriverLib.cpp(2975): error C2065: 'hManager' : undeclared identifier
+     1>DriverLib.cpp(2975): error C2065: 'SERVICE_ALL_ACCESS' : undeclared identifier
+     1>DriverLib.cpp(2975): error C2065: 'SERVICE_KERNEL_DRIVER' : undeclared identifier
+     1>DriverLib.cpp(2975): error C2065: 'SERVICE_DEMAND_START' : undeclared identifier
+     1>DriverLib.cpp(2975): error C2065: 'SERVICE_ERROR_NORMAL' : undeclared identifier
+     1>DriverLib.cpp(2975): error C2065: 'CurrentDir' : undeclared identifier
+     1>DriverLib.cpp(2975): error C2065: 'NULL' : undeclared identifier
+     1>DriverLib.cpp(2975): error C3861: 'CreateServiceA': identifier not found
+     1>DriverLib.cpp(2977): error C2065: 'hService' : undeclared identifier
+     1>DriverLib.cpp(2977): error C2065: 'ERROR_SERVICE_EXISTS' : undeclared identifier
+     1>DriverLib.cpp(2977): error C3861: 'GetLastError': identifier not found
+     1>DriverLib.cpp(2980): error C2065: 'hManager' : undeclared identifier
+     1>DriverLib.cpp(2980): error C3861: 'CloseServiceHandle': identifier not found
+     1>DriverLib.cpp(2982): error C2065: 'hService' : undeclared identifier
+     1>DriverLib.cpp(2982): error C2065: 'NULL' : undeclared identifier
+     1>DriverLib.cpp(2982): error C3861: 'StartServiceW': identifier not found
+     1>DriverLib.cpp(2985): error C2065: 'CurrentDir' : undeclared identifier
+     1>DriverLib.cpp(2985): error C3861: 'DeleteFileA': identifier not found
+     1>DriverLib.cpp(2987): error C2065: 'hDriver' : undeclared identifier
+     1>DriverLib.cpp(2987): error C2065: 'NULL' : undeclared identifier
+     1>DriverLib.cpp(2987): error C2065: 'OPEN_EXISTING' : undeclared identifier
+     1>DriverLib.cpp(2987): error C2065: 'FILE_ATTRIBUTE_NORMAL' : undeclared identifier
+     1>DriverLib.cpp(2987): fatal error C1003: error count exceeds 100; stopping compilation
+     1>Done Building Project "D:\Projects\C++\DriverLib\DriverLib\DriverLib.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.10
